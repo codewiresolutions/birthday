@@ -16,7 +16,7 @@
               Image from 
               <a style="color: #f1c50e !important;text-decoration: none;" href="https://freepik.com" 
                  class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-3-base u-btn-1">
-                 Freepik
+                 Frepik
               </a>
             </p>
          </div>
