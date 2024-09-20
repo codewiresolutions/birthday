@@ -4,6 +4,9 @@ import Bparty from '../views/Bparty.vue'
 import work from '../views/work.vue'
 import Team from '../views/Team.vue'
 import Gallery from '../views/Gallery.vue'
+import consult from '../views/consult.vue'
+import quality from '../views/quality.vue'
+import parents from '../views/parents.vue'
 
 
 const router = createRouter({
@@ -34,6 +37,18 @@ const router = createRouter({
       name: 'Gallery',
       component:Gallery
     },
+   { path: '/',
+    name: 'consult',
+    component:consult
+  },
+  { path: '/',
+    name: 'parents',
+    component:parents
+  },
+  { path: '/',
+    name: 'quality',
+    component:quality
+  },
     {
       path: '/about',
       name: 'about',

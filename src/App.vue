@@ -3,9 +3,12 @@ import Bparty from "./views/Bparty.vue";
 import work from "./views/work.vue";
 import Team from "./views/Team.vue";
 import Gallery from "./views/Gallery.vue";
+import consult from "./views/consult.vue";
+import quality from "./views/quality.vue";
+import parents from "./views/parents.vue";
 
 
-  components: { Bparty,work,Gallery }
+  components: { Bparty,work,Gallery,consult,quality,parents }
 
 </script>
 
@@ -41,6 +44,9 @@ import Gallery from "./views/Gallery.vue";
 <work></work>
 <Team></Team>
 <gallery></gallery>
+<consult></consult>
+<quality></quality>
+<parents></parents>
 </template>
 
 <!-- Add this CSS to style and position the navbar-toggler icon and offcanvas content -->
